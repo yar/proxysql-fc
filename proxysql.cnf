@@ -3,7 +3,7 @@ errorlog="/var/lib/proxysql/proxysql.log"
 
 admin_variables=
 {
-    admin_credentials="admin:admin"
+    admin_credentials="admin:admin;radmin:radmin"
     mysql_ifaces="0.0.0.0:6032"
 #    admin-web_enabled=true
 #    debug=true
